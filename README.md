@@ -14,4 +14,3 @@
 | **Infra & Cloud** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Naver_Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white"> |
 | **Automation** | <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"> |
 | **API** | <img src="https://img.shields.io/badge/Naver_Maps_API-03C75A?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Naver_Search_API-03C75A?style=for-the-badge&logo=naver&logoColor=white"> |
-
