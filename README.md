@@ -3,7 +3,7 @@
 <p>
     <!-- email -->
     <!-- Tistory -->
-</p
+</p>
 ### 🛠️ Tech Stack
 
 | Category | Skills |
