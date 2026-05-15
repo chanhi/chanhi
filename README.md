@@ -20,4 +20,9 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[Git &amp; Github] Git Commit Message 규칙](https://chanhuy.tistory.com/28)
+- [오픈소스 SW](https://chanhuy.tistory.com/27)
+- [오픈소스 SW 프로젝트 후기](https://chanhuy.tistory.com/26)
+- [[CSTS] 구조 기반 테스트 &amp; 명세 기반 테스트 (9, 10장)](https://chanhuy.tistory.com/24)
+- [[CSTS] 테스트 분류와 테스팅 방법(2장~8장)](https://chanhuy.tistory.com/23)
 <!-- BLOG-POST-LIST:END -->
