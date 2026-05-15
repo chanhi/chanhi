@@ -1,8 +1,8 @@
 name: Latest blog post workflow
 on:
-  schedule:
+  # schedule:
     # 매일 자정(UTC)에 워크플로우를 실행합니다. (한국 시간 오전 9시)
-    - cron: '0 0 * * *'
+    # - cron: '0 0 * * *'
   workflow_dispatch:
     # GitHub Actions 탭에서 수동으로 실행할 수 있게 합니다.
 
