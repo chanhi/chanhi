@@ -22,3 +22,4 @@ jobs:
         with:
           # 찬희님의 티스토리 RSS 피드 주소로 변경했습니다.
           feed_list: 'https://chanhuy.tistory.com/rss'
+          user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
