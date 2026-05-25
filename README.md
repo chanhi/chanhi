@@ -20,9 +20,9 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [branch에 Rulesets 적용하기](https://chanhuy.tistory.com/30)
 - [Github Profile에 티스토리 최근 글 연동하기](https://chanhuy.tistory.com/29)
 - [[Git &amp; Github] Git Commit Message 규칙](https://chanhuy.tistory.com/28)
 - [오픈소스 SW](https://chanhuy.tistory.com/27)
 - [오픈소스 SW 프로젝트 후기](https://chanhuy.tistory.com/26)
-- [[CSTS] 구조 기반 테스트 &amp; 명세 기반 테스트 (9, 10장)](https://chanhuy.tistory.com/24)
 <!-- BLOG-POST-LIST:END -->
