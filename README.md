@@ -20,9 +20,9 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[정보처리기사] 정보처리기사 필기 후기 및 실기 시험 준비](https://chanhuy.tistory.com/35)
 - [이게 뭔가 BitLocker](https://chanhuy.tistory.com/34)
 - [[심화캡스톤] SMPL을 이용한 3D 스타일 피팅 서비스](https://chanhuy.tistory.com/33)
 - [기초/심화 캡스톤 디자인 프로젝트 회고](https://chanhuy.tistory.com/32)
 - [Github Token 사용해서 push 하기](https://chanhuy.tistory.com/31)
-- [branch에 Rulesets 적용하기](https://chanhuy.tistory.com/30)
 <!-- BLOG-POST-LIST:END -->
