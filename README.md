@@ -20,9 +20,9 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[Rpi] Fail2ban 시스템 적용하기](https://chanhuy.tistory.com/39)
 - [[Git &amp; Github] 자주 쓰는 내용 정리](https://chanhuy.tistory.com/38)
 - [[정보처리기사 실기] 서버 프로그램 구현](https://chanhuy.tistory.com/37)
 - [[정보처리기사 실기] 데이터 입출력 구현](https://chanhuy.tistory.com/36)
 - [[정보처리기사] 정보처리기사 필기 후기 및 실기 시험 준비](https://chanhuy.tistory.com/35)
-- [이게 뭔가 BitLocker](https://chanhuy.tistory.com/34)
 <!-- BLOG-POST-LIST:END -->
