@@ -20,9 +20,9 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[정보처리기사] 정보처리기사 후기](https://chanhuy.tistory.com/42)
 - [[Rpi] 라즈베리파이로 원격 서버 만들기2](https://chanhuy.tistory.com/41)
 - [[Rpi] 라즈베리파이로 원격 서버 만들기1](https://chanhuy.tistory.com/40)
 - [[Rpi] Fail2ban 시스템 적용하기](https://chanhuy.tistory.com/39)
 - [[Git &amp; Github] 자주 쓰는 내용 정리](https://chanhuy.tistory.com/38)
-- [[정보처리기사 실기] 서버 프로그램 구현](https://chanhuy.tistory.com/37)
 <!-- BLOG-POST-LIST:END -->
