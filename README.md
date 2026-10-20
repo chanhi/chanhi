@@ -5,6 +5,7 @@
     <!-- Tistory -->
 </p>
 
+
 ### 🛠️ Tech Stack
 
 | Category | Skills |
@@ -16,13 +17,22 @@
 | **Automation** | <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"> |
 | **API** | <img src="https://img.shields.io/badge/Naver_Maps_API-03C75A?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Naver_Search_API-03C75A?style=for-the-badge&logo=naver&logoColor=white"> |
 
+<p>
+    <a href="https://chanhi.github.io"><img src="https://img.shields.io/badge/Blog-chanhi.github.io-5B5BD6?style=for-the-badge&logo=githubpages&logoColor=white"></a>
+    <a href="https://chanhuy.tistory.com"><img src="https://img.shields.io/badge/Tistory-chanhuy-EB531F?style=for-the-badge&logo=tistory&logoColor=white"></a>
+</p>
 
 ### 📕 Latest Blog Posts
 
+**[chanhi.github.io](https://chanhi.github.io)**
+
 <!-- BLOG-POST-LIST:START -->
-- [[정보처리기사] 전공자 기준 정보처리기사 후기](https://chanhuy.tistory.com/42)
-- [[Rpi] 라즈베리파이로 원격 서버 만들기2](https://chanhuy.tistory.com/41)
-- [[Rpi] 라즈베리파이로 원격 서버 만들기1](https://chanhuy.tistory.com/40)
-- [[Rpi] Fail2ban 시스템 적용하기](https://chanhuy.tistory.com/39)
-- [[Git &amp; Github] 자주 쓰는 내용 정리](https://chanhuy.tistory.com/38)
 <!-- BLOG-POST-LIST:END -->
+
+<details>
+<summary>📝 Tistory (이전 블로그)</summary>
+
+<!-- TISTORY-POST-LIST:START -->
+<!-- TISTORY-POST-LIST:END -->
+
+</details>
