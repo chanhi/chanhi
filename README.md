@@ -27,12 +27,22 @@
 **[chanhi.github.io](https://chanhi.github.io)**
 
 <!-- BLOG-POST-LIST:START -->
+- [LLM-as-a-Judge 실전 - judge 고르기, 채점기 검증, 과적합 없는 힐클라이밍](https://chanhi.github.io/research/llm-as-a-judge-in-practice/)
+- [Tistory에서 GitHub Pages로 블로그를 옮겼습니다](https://chanhi.github.io/retrospect/hello-github-pages/)
+- [코딩 어시스턴트에서 코딩 에이전트로 - 무엇이 달라졌나](https://chanhi.github.io/research/coding-assistant-to-coding-agent/)
+- [Claude Code 핵심 기능과 스킬 작성법](https://chanhi.github.io/research/claude-code-and-skills/)
+- [컨텍스트 엔지니어링과 에이전트 자동화 설계 원칙](https://chanhi.github.io/research/context-engineering-and-agent-automation/)
 <!-- BLOG-POST-LIST:END -->
 
 <details>
 <summary>📝 Tistory (이전 블로그)</summary>
 
 <!-- TISTORY-POST-LIST:START -->
+- [[정보처리기사] 전공자 기준 정보처리기사 후기](https://chanhuy.tistory.com/42)
+- [[Rpi] 라즈베리파이로 원격 서버 만들기2](https://chanhuy.tistory.com/41)
+- [[Rpi] 라즈베리파이로 원격 서버 만들기1](https://chanhuy.tistory.com/40)
+- [[Rpi] Fail2ban 시스템 적용하기](https://chanhuy.tistory.com/39)
+- [[Git & Github] 자주 쓰는 내용 정리](https://chanhuy.tistory.com/38)
 <!-- TISTORY-POST-LIST:END -->
 
 </details>
