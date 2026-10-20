@@ -1,35 +1,49 @@
-import urllib.request
-import feedparser
+import html
 import re
+import urllib.request
 
-# 1. 티스토리 RSS 주소
-url = "https://chanhuy.tistory.com/rss"
+import feedparser
 
-# 2. 406 에러(봇 차단) 우회를 위해 일반 브라우저처럼 User-Agent 헤더 추가
-req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'})
-response = urllib.request.urlopen(req)
-xml_data = response.read()
+# Each feed fills its own marker section in README.md.
+# To retire Tistory later, delete its line here and its block in README.md.
+FEEDS = [
+    ("BLOG-POST-LIST", "https://chanhi.github.io/rss.xml"),
+    ("TISTORY-POST-LIST", "https://chanhuy.tistory.com/rss"),
+]
+MAX_POSTS = 5
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"}
 
-# 3. RSS 피드 파싱
-feed = feedparser.parse(xml_data)
 
-# 4. 최신 글 5개를 마크다운 리스트 형식으로 변환
-latest_posts = ""
-for entry in feed.entries[:5]:
-    latest_posts += f"- [{entry.title}]({entry.link})\n"
+def fetch_posts(url):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=20) as response:
+        feed = feedparser.parse(response.read())
+    lines = []
+    for entry in feed.entries[:MAX_POSTS]:
+        title = html.unescape(entry.title)  # turns "&amp;" into "&"
+        lines.append(f"- [{title}]({entry.link})")
+    return "\n".join(lines) + "\n" if lines else ""
 
-# 5. README.md 파일 읽기
+
 with open("README.md", "r", encoding="utf-8") as f:
     readme_text = f.read()
 
-# 6. 정규식을 사용해 주석 사이의 내용을 새 블로그 글 목록으로 교체
-readme_text = re.sub(
-    r"<!-- BLOG-POST-LIST:START -->.*<!-- BLOG-POST-LIST:END -->",
-    f"<!-- BLOG-POST-LIST:START -->\n{latest_posts}<!-- BLOG-POST-LIST:END -->",
-    readme_text,
-    flags=re.DOTALL
-)
+for marker, url in FEEDS:
+    try:
+        posts = fetch_posts(url)
+    except Exception as e:
+        # If one feed fails, keep its previous list and still update the others.
+        print(f"[skip] {marker}: {e}")
+        continue
+    if not posts:
+        print(f"[skip] {marker}: no entries")
+        continue
+    readme_text = re.sub(
+        rf"<!-- {marker}:START -->.*?<!-- {marker}:END -->",
+        lambda _: f"<!-- {marker}:START -->\n{posts}<!-- {marker}:END -->",
+        readme_text,
+        flags=re.DOTALL,
+    )
 
-# 7. 수정된 내용을 README.md에 덮어쓰기
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme_text)
