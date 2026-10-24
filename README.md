@@ -41,11 +41,11 @@ LLM 에이전트와 RAG로 산업 현장의 문제를 풀고 있는 개발자입
 **[chanhi.github.io](https://chanhi.github.io)**: Develop · Research · CS · 회고 · 자격증
 
 <!-- BLOG-POST-LIST:START -->
+- [Jev — 글 대신 타입 있는 답과 확률을 돌려주는 System One 모델](https://chanhi.github.io/research/typesafe-jev-system-one-model/)
+- [Jev vs Laya — 호스팅 결정 모델과 오픈 가중치 결정 모델 비교](https://chanhi.github.io/research/jev-vs-laya/)
+- [서브에이전트를 메인 에이전트 루프로 합치기](https://chanhi.github.io/research/fold-subagents-into-main-loop/)
 - [Anthropic 소스 컨트롤 재설계 (Scion) — 에이전트 규모의 버전 관리](https://chanhi.github.io/research/anthropic-scion-source-control/)
 - [Flue — Hook으로 만드는 TypeScript AI 에이전트 프레임워크](https://chanhi.github.io/research/flue-agent-framework/)
-- [LLM-as-a-Judge 실전 - judge 고르기, 채점기 검증, 과적합 없는 힐클라이밍](https://chanhi.github.io/research/llm-as-a-judge-in-practice/)
-- [Tistory에서 GitHub Pages로 블로그를 옮겼습니다](https://chanhi.github.io/retrospect/hello-github-pages/)
-- [코딩 어시스턴트에서 코딩 에이전트로 - 무엇이 달라졌나](https://chanhi.github.io/research/coding-assistant-to-coding-agent/)
 <!-- BLOG-POST-LIST:END -->
 
 <details>
