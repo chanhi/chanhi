@@ -41,11 +41,11 @@ LLM 에이전트와 RAG로 산업 현장의 문제를 풀고 있는 개발자입
 **[chanhi.github.io](https://chanhi.github.io)**: Develop · Research · CS · 회고 · 자격증
 
 <!-- BLOG-POST-LIST:START -->
-- [Jev — 글 대신 타입 있는 답과 확률을 돌려주는 System One 모델](https://chanhi.github.io/research/typesafe-jev-system-one-model/)
-- [Jev vs Laya — 호스팅 결정 모델과 오픈 가중치 결정 모델 비교](https://chanhi.github.io/research/jev-vs-laya/)
-- [서브에이전트를 메인 에이전트 루프로 합치기](https://chanhi.github.io/research/fold-subagents-into-main-loop/)
-- [Anthropic 소스 컨트롤 재설계 (Scion) — 에이전트 규모의 버전 관리](https://chanhi.github.io/research/anthropic-scion-source-control/)
-- [Flue — Hook으로 만드는 TypeScript AI 에이전트 프레임워크](https://chanhi.github.io/research/flue-agent-framework/)
+- [ARM64 어셈블리로 퀵정렬 구현](https://chanhi.github.io/cs/arm64-assembly-quicksort/)
+- [Python TCP 소켓 프로그래밍](https://chanhi.github.io/cs/python-tcp-socket-programming/)
+- [SIC 2-pass 어셈블러 구현기](https://chanhi.github.io/cs/sic-two-pass-assembler/)
+- [리눅스 프로세스 실습: fork · exec · wait](https://chanhi.github.io/cs/linux-process-fork-exec-wait/)
+- [스택 · 큐와 미로 탐색 (C)](https://chanhi.github.io/cs/stack-queue-maze-c/)
 <!-- BLOG-POST-LIST:END -->
 
 <details>
