@@ -41,11 +41,11 @@ LLM 에이전트와 RAG로 산업 현장의 문제를 풀고 있는 개발자입
 **[chanhi.github.io](https://chanhi.github.io)**: Develop · Research · CS · 회고 · 자격증
 
 <!-- BLOG-POST-LIST:START -->
+- [security-audit 스킬 — Cloudflare의 보안 점검 에이전트 스킬 사용법](https://chanhi.github.io/research/security-audit-skill/)
+- [Hermes Agent — 쓰면서 스스로 배우는 오픈소스 개인 AI 에이전트](https://chanhi.github.io/research/hermes-agent/)
 - [ARM64 어셈블리로 퀵정렬 구현](https://chanhi.github.io/cs/arm64-assembly-quicksort/)
 - [Python TCP 소켓 프로그래밍](https://chanhi.github.io/cs/python-tcp-socket-programming/)
 - [SIC 2-pass 어셈블러 구현기](https://chanhi.github.io/cs/sic-two-pass-assembler/)
-- [리눅스 프로세스 실습: fork · exec · wait](https://chanhi.github.io/cs/linux-process-fork-exec-wait/)
-- [스택 · 큐와 미로 탐색 (C)](https://chanhi.github.io/cs/stack-queue-maze-c/)
 <!-- BLOG-POST-LIST:END -->
 
 <details>
